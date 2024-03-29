@@ -1,0 +1,162 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sivusto {
+    margin: auto;
+    width: 99%;
+
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h2 {
+    width: 100%;
+}
+
+article {
+    width: 33%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    background-color: black;
+}
+
+
+.abdu {
+    width: 100%;
+    margin: auto;
+}
+
+.ali {
+    margin: 10px auto;
+    display: flex;
+}
+
+ul {
+    flex: 1;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 55px;
+}
+
+img[src="kirpputori.jpg"] {
+    width: 41%;
+    height: auto;
+    max-width: none;
+    top: 100%;
+}
+
+
+ul li a::after {
+    content: "";
+    width: 0;
+    height: 30px;
+    background: lightblue;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -90%;
+    transition: 0.3s;
+}
+
+ul li a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 10px;
+    position: relative;
+}
+
+ul li a:hover:after {
+    width: 100%;
+}
+
+.tuotteet {
+
+}
+
+
+.YB\.kuva {
+    text-align: center;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.vikakuva {
+    display: flex;
+    float: right;
+    width: 40%;
+    margin-top: 20%;
+
+}
+
+.jjj {
+    color: black;
+    font-size: 190%;
+    margin-right: auto;
+    float: left;
+    margin-top: 17%;
+
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightcoral;
+
+}
+
+p {
+    color: black;
+    align-items: center;
+    font-size: medium;
+}
+
+h1 {
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 200;
+}
+
+.YB\.kuva {
+    margin-top: 195px; /* säädä tarvittaessa */
+}
+
+.tuotteet1 {
+    color: black;
+    text-align: left;
+
+}
+
+h2 {
+    color: black;
+    text-align: left;
+}
+
+
+
+
+
